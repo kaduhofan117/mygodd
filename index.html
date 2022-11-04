@@ -106,6 +106,12 @@
       color: #ff0000
     }
 
+      #aguri:hover{
+      color: hsl(298, 100%, 79%);
+      background-color: #00ff95;
+      animation: mygoodness 0.5s infinite ease-in-out;
+    }
+
     iframe{
       height: 40%;
       width: 50vw;
@@ -128,6 +134,21 @@
         opacity: 0;
       }
     }
+
+    @keyframes mygoodness {
+      0% {
+        filter: hue-rotate(0deg);
+      }
+
+      50% {
+        filter: hue-rotate(180deg);
+      }
+
+      100% {
+        filter: hue-rotate(0deg);
+      }
+    }
+
 
     @media (orientation: portrait) {
 
@@ -359,7 +380,7 @@
     </a>
 
     <a href=" 134_comicfuz.pdf">
-      <div class="chapter"><b>[Chapter 134]</b></br> Synopsis: <span class="white">Yasuna and Sonya go to the hospital.
+      <div class="chapter" id="aguri"><b>[Chapter 134]</b></br> Synopsis: <span class="white">Yasuna and Sonya go to the hospital.
         </span> Agiri appearance: <span class="white">yeah 🤤🤤</span> Contains colored pages: <span
           class="white">yes</span>
         Death in Final Panel: <span class="white">yes</span> Uniform: <span class="white">Blazers</span> Origin:  <span class="white">COMIC FUZ</span></div>
@@ -455,8 +476,8 @@
 
 
   </div>
-<!-- <br><a href="DOG">Page 2</a><br>
-  <iframe src=""></iframe> -->
+<br><a href="index2.html">Page 2</a><br>
+  <iframe src="index2.html"></iframe>
 </body>
 
 </html>
