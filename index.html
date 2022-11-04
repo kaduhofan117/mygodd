@@ -107,9 +107,14 @@
     }
 
       #aguri:hover{
-      color: hsl(298, 100%, 79%);
-      background-color: #00ff95;
-      animation: mygoodness 0.5s infinite ease-in-out;
+    color: hsl(203deg 100% 50%);
+    background-color: #00ff95;
+    filter: blur(1px);
+    animation: mygoodness 0.5s infinite cubic-bezier(0.15, 0.63, 0.97, 0.51);;
+    }
+    #aguri:hover .white{
+      color: #ff85be;
+      animation: mygoodness 0.5s infinite ease-out;
     }
 
     iframe{
