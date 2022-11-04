@@ -1,0 +1,448 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;400;500&display=swap');
+    
+    @font-face {
+    font-family: 'Helvetica52';
+    src: url("Helvetica-52.woff");
+}
+.main a{
+      text-decoration: none;
+      color: inherit;
+    }
+    a{
+      font-family: 'Helvetica52';
+      color: #cfcfcf;
+    }
+    a:hover{
+      color: black;
+      transition: all 0.125s;
+    }
+
+    body {
+      background-color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+
+    }
+
+    .title {
+      font-family: arial;
+      font-weight: bold;
+      letter-spacing: -0.5vw;
+      padding-top: 0;
+      width: 100%;
+      height: 5.5vw;
+      margin-top: -50px;
+      mix-blend-mode: exclusion;
+      filter: invert();
+      top:0;
+      position: sticky;
+
+    }
+
+    .main {
+      
+      width: 50vw;
+      overflow-y: scroll;
+      padding-right: 5px;
+      padding-top: 5px;
+      height: 50vh;
+      background-color: white;
+      color: black;
+      scroll-snap-type: y proximity;
+    }
+
+    .chapter {
+      font-family: 'Helvetica52';
+      font-size: 10pt;
+      margin-top: 5px;
+      width: auto;
+      padding: 2.5px;
+      display: inline-block;
+      transition: all 0.25s;
+      scroll-snap-align: center;
+    }
+
+    .hidden {
+      display: none;
+      position: fixed;
+      left: 10;
+      top: 10;
+    }
+
+    .hidden img {
+      width: 40vw;
+    }
+
+    .chapter:hover+.hidden {
+      display: block;
+    }
+
+    .whitefake {
+      color: #cfcfcf;
+    }
+
+    .white {
+      color: #cfcfcf;
+    }
+
+    .chapter:hover .white {
+      color: black;
+    }
+
+    .chapter:hover{
+       font-size: 15px; 
+      animation: all 1s;
+      background-color: #efefef;
+      color: #a9a9a9;
+    }
+
+    .chapter:hover .whitefake {
+      animation: flash 0.5s infinite;
+      color: #ff0000
+    }
+
+    iframe{
+      height: 40%;
+      width: 50vw;
+    }
+
+    @keyframes flash {
+      0% {
+        opacity: 1;
+      }
+
+      49% {
+        opacity: 1;
+      }
+
+      50% {
+        opacity: 0;
+      }
+
+      100% {
+        opacity: 0;
+      }
+    }
+
+    @media (orientation: portrait) {
+
+body {
+background-color: white;
+display: flex;
+justify-content: space-between;
+height: calc(100% - 20px);
+margin: 0;
+padding: 10px;
+flex-direction: column;
+}
+
+.title {
+  font-size: 10vw;
+}
+
+.main {
+  width: 100%;
+  height: 40%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  z-index: 999;
+}
+
+.title {
+  width: 100%;
+}
+
+.hidden {
+  top: 45vh;
+  z-index: 999;
+}
+
+.hidden img {
+  width: 90vw;
+}
+
+.white {
+  opacity: 90%
+}
+iframe{
+  width: 100%;
+  height: 50vh;
+  transform: rotate(180deg);
+  z-index: 1;
+}
+
+}
+  </style>
+</head>
+
+<body ontouchstart="">
+  <meta name="viewport" content="width=device-width, initial-scale=0.8,">
+  <div class="main">
+
+    <div class="title"><img width="100%" src="logo2.svg"></img></div>
+<br><br><br><br><br>
+    <a href=" 144_drive.pdf">
+      <div class="chapter"><b>[Chapter 144]</b></br> Synopsis: <span class="white">Yasuna wants to do art. </span> Agiri
+        appearance: <span class="white">yes</span> Contains colored pages: <span class="white">no</span>
+        Death in Final Panel: <span class="white">no</span> Uniform: <span class="white">Short sleeve</span> Origin:  <span class="white">MEGA</span></div>
+
+      <span class="hidden"><img
+          src="https://img.comic-fuz.com/e/1xh4b0/6bC.webp?h=KhbFL3Nf69P_2CzGoK6sEQ&e=5000000000"></img></span>
+    </a>
+
+    <a href=" 145_drive.pdf">
+      <div class="chapter"><b>[Chapter 145]</b></br> Synopsis: <span class="white">Yasuna has pets.</span>
+        Agiri appearance: <span class="white">yes</span> Contains colored pages: <span class="white">no</span>
+        Death in Final Panel: <span class="white">no</span> Uniform: <span class="white">Blazers</span> Origin:  <span class="white">MEGA</span></div>
+
+      <span class="hidden"><img
+          src="https://img.comic-fuz.com/e/1xh4b1/6bD.webp?h=Yct7BOdo3UlZN5M2nurL9Q&e=5000000000"></img></span>
+    </a>
+
+
+
+    <a href=" 146_drive.pdf">
+      <div class="chapter"><b>[Chapter 146]</b><br> Synopsis: <span class="white">Yasuna and Sonya disguise themselves.</span> Agiri appearance: <span class="white">yes</span> Contains colored pages: <span
+          class="white">no</span> Death in Final
+        Panel: <span class="white">no</span> Uniform: <span class="white">Blazers</span> Origin:  <span class="white">MEGA</span></div>
+
+      <span class="hidden"><img
+          src="https://img.comic-fuz.com/e/1xtGoT/6hK.webp?h=yyzdMmlJLdyFBJ_IvrdxDg&e=5000000000"></span>
+    </a>
+
+    <a href=" 147_drive.pdf">
+      <div class="chapter"><b>[Chapter 147]</b></br> Synopsis: <span class="white">Yasuna & Sonya hunt the Yeti. </span> Agiri appearance: <span class="white">no</span> Contains colored pages: <span
+          class="white">yes</span>
+        Death in Final Panel: <span class="white">no</span> Uniform: <span class="white">THEY ARENT WEARING THEM???</span> Origin:  <span class="white">MEGA</span></div>
+
+      <span class="hidden"><img
+          src="https://img.comic-fuz.com/e/1xtGpD/6hL.webp?h=njzKtsVcmwKN-IZejjX3JQ&e=5000000000"></img></span>
+    </a>
+
+    <a href=" 148_drive.pdf">
+      <div class="chapter"><b>[Chapter 148]</b></br> Synopsis: <span class="white">Yasuna buys supposedly mind-enhancing glasses.</span> Agiri appearance: <span class="white">no</span> Contains colored pages: <span class="white">no</span>
+        Death in Final Panel: <span class="white">no</span> Uniform: <span class="white">Blazers</span> Origin:  <span class="white">MEGA</span></div>
+
+      <span class="hidden"><img
+          src="https://img.comic-fuz.com/e/1xtGq6/6hM.webp?h=JB65fZibu6QQLC9qcs_6qg&e=5000000000"></img></span>
+    </a>
+
+    <a href=" 149_drive.pdf">
+      <div class="chapter"><b>[Chapter 149]</b></br> Synopsis: <span class="white">Yasuna & Sonya fish.</span> Agiri appearance: <span class="white">yes</span> Contains
+        colored pages: <span class="white">no</span>
+        Death in Final Panel: <span class="white">no</span> Uniform: <span class="white">Long sleeve</span> Origin:  <span class="white">MEGA</span></div>
+
+      <span class="hidden"><img
+          src="https://img.comic-fuz.com/e/1xtGqL/6hN.webp?h=5Z6CMfX9NGDn4EZkCHChZw&e=5000000000"></img></span>
+    </a>
+
+    <a href=" 150_drive.pdf">
+      <div class="chapter"><b>[Chapter 150]</b></br> Synopsis: <span class="white">Yasuna & Sonya duel.</span> Agiri appearance: <span class="white">no</span> Contains colored pages: <span
+          class="white">yes</span>
+        Death in Final Panel: <span class="white">YES</span> Uniform: <span class="white">Long sleeve</span> Origin:  <span class="white">MEGA</span></div>
+
+      <span class="hidden"><img
+          src="https://img.comic-fuz.com/e/1xtGrn/6hO.webp?h=cdBlx4NskOam5n7aOMGj9A&e=5000000000"></img></span>
+    </a>
+
+    <a href=" 151_drive.pdf">
+      <div class="chapter"><b>[Chapter 151]</b></br> Synopsis: <span class="white">Yasuna & Sonya summon spirits.</span> Agiri appearance: <span class="white">yes</span> Contains colored pages: <span class="white">no</span>
+        Death in Final Panel: <span class="white">yasuna only</span> Uniform: <span class="white">Long sleeve</span> Origin:  <span class="white">MEGA</span></div>
+
+      <span class="hidden"><img
+          src="https://img.comic-fuz.com/e/1xtGrU/6hP.webp?h=0FUuLYL1fQgN8gmZqzzihQ&e=5000000000"></img></span>
+    </a>
+
+    <a href=" 152_drive.pdf">
+      <div class="chapter"><b>[Chapter 152]</b></br> Synopsis: <span class="white">Sonya has laughing fits.</span> Agiri appearance: <span class="white">yes</span> Contains colored pages: <span class="white">no</span>
+        Death in Final Panel: <span class="white">no</span> Uniform: <span class="white">Short sleeve</span> Origin:  <span class="white">MEGA</span></div>
+
+      <span class="hidden"><img
+          src="https://img.comic-fuz.com/e/1xtGst/6hQ.webp?h=lqLn_i6fmZPpwOzWN3UORA&e=5000000000"></img></span>
+    </a>
+
+    <a href=" 153_drive.pdf">
+      <div class="chapter"><b>[Chapter 153]</b></br> Synopsis: <span class="white">Yasuna wants to get ripped.</span> Agiri appearance: <span class="white">no</span> Contains colored pages: <span
+          class="white">no</span>
+        Death in Final Panel: <span class="white">no</span> Uniform: <span class="white">Short sleeve</span> Origin:  <span class="white">MEGA</span></div>
+
+      <span class="hidden"><img
+          src="https://img.comic-fuz.com/e/1xtGta/6hR.webp?h=Zx5-uwc2jx9IMx7KDsTkVQ&e=5000000000"></img></span>
+    </a>
+
+    <a href=" 154_drive.pdf">
+      <div class="chapter"><b>[Chapter 154]</b></br> Synopsis: <span class="white">Yasuna & Sonya are in jail. This chapter contains an <u>ennemy assassin</u></span> Agiri appearance: <span class="white">yno</span> Contains colored pages: <span class="white">no</span>
+        Death in Final Panel: <span class="white">no</span> Uniform: <span class="white">Short sleeve</span> Origin:  <span class="white">MEGA</span></div>
+
+      <span class="hidden"><img
+          src="https://img.comic-fuz.com/e/1xtGtN/6hS.webp?h=vuXWo5PwTgkgbtgN8ZTgVw&e=5000000000"></img></span>
+    </a>
+
+    <a href=" 155_drive.pdf">
+      <div class="chapter"><b>[Chapter 155]</b></br> Synopsis: <span class="white">Agiri clones herself.
+        </span> Agiri appearance: <span class="white">yes</span> Contains colored pages: <span class="white">no</span>
+        Death in Final Panel: <span class="white">no</span> Uniform: <span class="white">Long sleeve</span> Origin:  <span class="white">MEGA</span></div>
+
+      <span class="hidden"><img
+          src="https://img.comic-fuz.com/e/1xtGuu/6hT.webp?h=KLnTtC1y2iVKElm1XmLpZw&e=5000000000"></img></span>
+    </a>
+
+    <a href=" 156_drive.pdf">
+      <div class="chapter"><b>[Chapter 156]</b></br> Synopsis: <span class="white">Sonya & Yasuna are in a dream. This chapter contains an <u>ennemy assasin</u> </span>
+        Agiri appearance: <span class="white">no</span> Contains colored pages: <span class="white">no</span>
+        Death in Final Panel: <span class="white">no</span> Uniform: <span class="white">Blazers</span> Origin:  <span class="white">MEGA</span></div>
+
+      <span class="hidden"><img
+          src="https://img.comic-fuz.com/e/1xtGv8/6hU.webp?h=cyZg5iPwy1d17naBs8Y0hg&e=5000000000"></img></span>
+    </a>
+
+    <a href=" 157_drive.pdf">
+      <div class="chapter"><b>[Chapter 157]</b></br> Synopsis: <span class="white">Christmas chapter.</span> Agiri appearance: <span class="white">yes</span> Contains colored pages: <span
+          class="white">no</span>
+        Death in Final Panel: <span class="white">yes, technically</span> Uniform: <span class="white">Blazers</span> Origin:  <span class="white">MEGA</span>
+      </div>
+
+      <span class="hidden"><img
+          src="https://img.comic-fuz.com/e/1xtGvF/6hV.webp?h=jpZn0baEvDP_SLkbVnsg9Q&e=5000000000"></img></span>
+    </a>
+
+    <a href=" 158_drive.pdf">
+      <div class="chapter"><b>[Chapter 158]</b></br> Synopsis: <span class="white">Yasuna discovers a Sonya robot.
+        </span> Agiri appearance: <span class="white">yes</span> Contains colored pages: <span class="white">no</span>
+        Death in Final Panel: <span class="white">yes</span> Uniform: <span class="white">Blazers</span> Origin:  <span class="white">MEGA</span></div>
+
+      <span class="hidden"><img
+          src="https://img.comic-fuz.com/e/1xtGwf/6hW.webp?h=Rx5aRpYYG6Jm9C14WEgTHg&e=5000000000"></img></span>
+    </a>
+
+    <a href=" 159_drive.pdf">
+      <div class="chapter"><b>[Chapter 159]</b></br> Synopsis: <span class="white">Yasuna gets struck by lightning. Amnesia ensues. </span> Agiri appearance: <span
+          class="white">yes</span> Contains colored pages: <span class="white">no/span>
+        Death in Final Panel: <span class="white">no</span> Uniform: <span class="white">Long sleeve</span> Origin:  <span class="white">MEGA</span></div>
+
+      <span class="hidden"><img
+          src="https://img.comic-fuz.com/e/1yTU5G/9a-.webp?h=tVzAlcYDvR-vDEyE6EnhWA&e=5000000000"></img></span>
+    </a>
+
+    <a href=" 160_drive.pdf">
+      <div class="chapter"><b>[Chapter 160]</b></br> Synopsis: <span class="white">Yasuna & Agiri do magic tricks.</span> Agiri appearance: <span
+          class="white">yes</span> Contains colored pages: <span class="white">yes</span>
+        Death in Final Panel: <span class="white">no</span> Uniform: <span class="white">Long sleeve</span> Origin:  <span
+          class="white">MEGA</span></div>
+
+      <span class="hidden"><img
+          src="https://img.comic-fuz.com/e/1yTU53/9b1.webp?h=CRh1IFW0MS4Vx4FyEPnuPQ&e=5000000000"></img></span>
+    </a>
+    <a href=" 161_drive.pdf">
+      <div class="chapter"><b>[Chapter 161]</b></br> Synopsis: <span class="white">Yasuna wants to fly.</span>
+        Agiri appearance: <span class="white">no</span> Contains colored pages: <span class="white">no</span>
+        Death in Final Panel: <span class="white">Yasuna only</span> Uniform: <span class="white">Long sleeve</span> Origin:  <span class="white">MEGA</span></div>
+
+      <span class="hidden"><img
+          src="https://img.comic-fuz.com/e/1yTU48/9b4.webp?h=nnlMin6CaWVafGxQ03vrmg&e=5000000000"></img></span>
+    </a>
+
+    <a href=" 162_drive.pdf">
+      <div class="chapter"><b>[Chapter 162]</b></br> Synopsis: <span class="white">Yasuna and Sonya go to a haunted house. (again)
+        </span> Agiri appearance: <span class="white">yes</span> Contains colored pages: <span
+          class="white">no</span>
+        Death in Final Panel: <span class="white">yes honestly they're not gonna survive ido Agiri</span> Uniform: <span class="white">Short sleeve</span> Origin:  <span class="white">MEGA</span></div>
+
+      <span class="hidden"><img
+          src="https://img.comic-fuz.com/e/1yTU3d/9b7.webp?h=-hdlllHhaAHWkBd9yPhUsQ&e=5000000000"></img></span>
+    </a>
+
+    <a href=" 163_drive.pdf">
+      <div class="chapter"><b>[Chapter 163]</b></br> Synopsis: <span class="white">Yasuna tries her hand at fortune telling
+        </span> Agiri appearance: <span class="white">no</span> Contains colored pages: <span class="white">no</span>
+        Death in Final Panel: <span class="white">no</span> Uniform: <span class="white">Short sleeve</span> Origin:  <span class="white">MEGA</span></div>
+
+      <span class="hidden"><img
+          src="https://img.comic-fuz.com/e/1yTU23/9ba.webp?h=P7oYTedScOdQnDPKQiW8kA&e=5000000000"></img></span>
+    </a>
+
+    <a href=" 164_drive.pdf">
+      <div class="chapter"><b>[Chapter 164]</b></br> Synopsis: <span class="white">Yasuna, Sonya & Agiri go to an arcade.
+        </span> Agiri appearance: <span class="white">yes</span> Contains colored pages: <span class="white">yes</span>
+        Death in Final Panel: <span class="white">no</span> Uniform: <span class="white">Short sleeve</span> Origin:  <span class="white">MEGA</span></div>
+
+      <span class="hidden"><img
+          src="https://img.comic-fuz.com/e/1yTU1x/9bd.webp?h=zQYgq8OwM7MP7fcfHi02CA&e=5000000000"></img></span>
+    </a>
+
+    <a href=" 165_drive.pdf">
+      <div class="chapter"><b>[Chapter 165]</b></br> Synopsis: <span class="white">Yasuna, Sonya & Agiri come across their doppelgängers. This chapter contains <u>ennemy assasin</u>s obviously</span> Agiri
+        appearance: <span class="white">yes</span> Contains colored pages: <span class="white">no</span>
+        Death in Final Panel: <span class="white">no</span> Uniform: <span class="white">Short sleeve</span> Origin:  <span class="white">MEGA</span></div>
+
+      <span class="hidden"><img
+          src="https://img.comic-fuz.com/e/1yTU0E/9bg.webp?h=5MN2kjrseBajBFtKK_wEPw&e=5000000000"></img></span>
+    </a>
+
+    <a href=" 166_drive.pdf">
+      <div class="chapter"><b>[Chapter 166]</b></br> Synopsis: <span class="white">Yasuna & Sonya race.</span> Agiri appearance: <span class="white">yes</span> Contains colored pages: <span
+          class="white">no</span>
+        Death in Final Panel: <span class="white">yes</span> Uniform: <span class="white">Blazers</span> Origin:  <span class="white">MEGA</span></div>
+
+      <span class="hidden"><img
+          src="https://img.comic-fuz.com/e/1yTT_W/9bj.webp?h=AT5dL_7-6Zlvb5de7KJyrw&e=5000000000"></img></span>
+    </a>
+
+    <a href=" 167_drive.pdf">
+      <div class="chapter"><b>[Chapter 167]</b></br> Synopsis: <span class="white">Yasuna has spy gadgets</span> Agiri appearance: <span class="white">no</span> Contains colored
+        pages: <span class="white">no</span>
+        Death in Final Panel: <span class="white">yes</span> Uniform: <span class="white">Blazers</span> Origin:  <span class="white">MEGA</span></div>
+
+      <span class="hidden"><img
+          src="https://img.comic-fuz.com/e/1yTT-O/9bm.webp?h=HtMU9A-y2N84lfXoRBMj1w&e=5000000000"></img></span>
+    </a>
+
+    <a href=" 168_drive.pdf">
+      <div class="chapter"><b>[Chapter 168]</b></br> Synopsis: <span class="white">Yasuna tries to cook a kappa </span> Agiri appearance: <span class="white">no</span> Contains colored pages: <span
+          class="white">no</span>
+        Death in Final Panel: <span class="white">no</span> Uniform: <span class="white">Blazers</span> Origin:  <span class="white">MEGA</span></div>
+
+      <span class="hidden"><img
+          src="https://img.comic-fuz.com/e/1yTT-6/9bp.webp?h=H3Bz9cMTnMyH34ycViK8Zw&e=5000000000"></img></span>
+    </a>
+
+    <a href=" 169_drive.pdf">
+      <div class="chapter"><b>[Chapter 169]</b></br> Synopsis: <span class="white">Yasuna & Sonya go to Agiri's maid cafe. </span> Agiri
+        appearance: <span class="white">yess</span> Contains colored pages: <span class="white">yes</span>
+        Death in Final Panel: <span class="white">no</span> Uniform: <span class="white">Blazers</span> Origin:  <span class="white">MEGA</span></div>
+
+      <span class="hidden"><img
+          src="https://img.comic-fuz.com/e/1yTTYJ/9bs.webp?h=qbA0R6Sgdlm3qxZtHvb40w&e=5000000000"></img></span>
+    </a>
+
+    <a href=" 170_drive.pdf">
+      <div class="chapter"><b>[Chapter 170]</b></br> Synopsis: <span class="white">Yasuna plays with magnets. This chapter contains an <u>ennemy assassin</u>
+        </span> Agiri appearance: <span class="white">no</span> Contains colored pages: <span class="white">no</span>
+        Death in Final Panel: <span class="white">no</span> Uniform: <span class="white">Blazers</span> Origin:  <span class="white">MEGA</span></div>
+
+      <span class="hidden"><img
+          src="https://img.comic-fuz.com/e/1yTTXU/9bv.webp?h=_SHHs8cI-GCvyr8l-CH8Hw&e=5000000000"></img></span>
+    </a>
+
+    <a href=" 171_drive.pdf">
+      <div class="chapter"><b>[Chapter 171]</b></br> Synopsis: <span class="white">Yasuna, Sonya & Agiri are in a torture chamber.</span> Agiri appearance: <span class="white">yes</span> Contains colored pages: <span
+          class="white">no</span>
+        Death in Final Panel: <span class="white">no</span> Uniform: <span class="white">Long sleeve</span> Origin:  <span class="white">MEGA</span></div>
+
+      <span class="hidden"><img
+          src="https://img.comic-fuz.com/e/1yTTWC/9by.webp?h=cYStndyS1lRsPCFA_98WiQ&e=5000000000"></img></span>
+    </a>
+
+
+  </div>
+  <br><a href="index.html">Page 1</a><br>
+  <iframe src="index.html"></iframe>
+</body>
+
+</html>
