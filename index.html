@@ -1,3 +1,462 @@
-<body>
-  <p>uggAHAHAHAHhh</p>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;400;500&display=swap');
+    
+    @font-face {
+    font-family: 'Helvetica52';
+    src: url("Helvetica-52.woff");
+}
+    .main a{
+      text-decoration: none;
+      color: inherit;
+    }
+    a{
+      font-family: 'Helvetica52';
+      color: #cfcfcf;
+    }
+    a:hover{
+      color: black;
+      transition: all 0.125s;
+    }
+
+    body {
+      background-color: white;
+      display: flex;
+      flex-direction: column;
+
+    }
+
+    .title {
+      font-family: arial;
+      font-weight: bold;
+      font-size: 5.5vw;
+      letter-spacing: -0.5vw;
+      padding-top: 0;
+      width: 100%;
+      height: 5.5vw;
+      margin-top: -35px;
+      margin-left: -2vw;
+      mix-blend-mode: exclusion;
+      filter: invert();
+      top:0;
+      position: sticky;
+
+    }
+
+    .main {
+      
+      width: 50vw;
+      overflow-y: scroll;
+      padding-right: 5px;
+      height: 50vh;
+      background-color: white;
+      color: black;
+    }
+
+    .chapter {
+      font-family: 'Helvetica52';
+      font-size: 10pt;
+      margin-top: 5px;
+      width: auto;
+      padding: 2.5px;
+      display: inline-block;
+      transition: all 0.25s;
+      scroll-snap-align: center;
+    }
+
+    .hidden {
+      display: none;
+      position: fixed;
+      right: 8;
+      top: 6vw;
+    }
+
+    .hidden img {
+      width: 40vw;
+    }
+
+    .chapter:hover+.hidden {
+      display: block;
+    }
+
+    .whitefake {
+      color: #cfcfcf;
+    }
+
+    .white {
+      color: #cfcfcf;
+    }
+
+    .chapter:hover .white {
+      color: black;
+    }
+
+    .chapter:hover{
+      font-size: 15px; 
+      animation: all 1s;
+      background-color: #efefef;
+      color: #a9a9a9;
+    }
+
+    .chapter:hover .whitefake {
+      animation: flash 0.5s infinite;
+      color: #ff0000
+    }
+
+    iframe{
+      height: 40%;
+      width: 50vw;
+    }
+
+    @keyframes flash {
+      0% {
+        opacity: 1;
+      }
+
+      49% {
+        opacity: 1;
+      }
+
+      50% {
+        opacity: 0;
+      }
+
+      100% {
+        opacity: 0;
+      }
+    }
+
+    @media (orientation: portrait) {
+
+      body {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    height: calc(100% - 20px);
+    margin: 0;
+    padding: 10px;
+    flex-direction: column;
+}
+
+      .main {
+        width: 100%;
+        height: 40%;
+        z-index: 99;
+        overflow-x: hidden;
+        overflow-y: scroll;
+      }
+
+      .title {
+        width: 100%;
+        z-index: 100;
+      }
+
+      .hidden {
+        top: 45vh;
+      }
+
+      .hidden img {
+        width: 90vw;
+      }
+
+      .white {
+        opacity: 90%
+      }
+      iframe{
+        width: 100%;
+        height: 50vh;
+        transform: rotate(180deg);
+      }
+    }
+  </style>
+</head>
+
+<body ontouchstart="">
+  <meta name="viewport" content="width=device-width, initial-scale=0.8,">
+ <div class="main">
+  <div class="title"><img width="100%" src=" logo.svg"></img></div>
+  <br><br><br>
+
+    <a href=" 116_comicfuz.pdf">
+      <div class="chapter"><b>[Chapter 116]</b></br> Synopsis: <span class="white">Yasuna brings an eel. </span> Agiri
+        appearance: <span class="white">yes</span> Contains colored pages: <span class="white">no</span>
+        Death in Final Panel: <span class="white">no, but there is throughout</span> Uniform: <span class="white">Blazers</span> Origin:  <span class="white">COMIC
+          FUZ</span></div>
+
+      <span class="hidden"><img
+          src="https://img.comic-fuz.com/e/1xh4a_/H4.webp?h=-2HmpV1JrKzlzSgFgfSjQA&e=5000000000"></img></span>
+    </a>
+
+    <a href=" 117_comicfuz.pdf">
+      <div class="chapter"><b>[Chapter 117]</b></br> Synopsis: <span class="white">Yasuna wants to try rodeo. </span>
+        Agiri appearance: <span class="white">yes</span> Contains colored pages: <span class="white">no</span>
+        Death in Final Panel: <span class="white">no</span> Uniform: <span class="white">Long sleeve</span> Origin:  <span class="white">COMIC FUZ</span></div>
+
+      <span class="hidden"><img
+          src="https://img.comic-fuz.com/e/1xh4b0/H5.webp?h=b1E6987lm7Kao2bZec5mjA&e=5000000000"></img></span>
+    </a>
+
+
+
+    <a href=" 118_comicfuz.pdf">
+      <div class="chapter"><b>[Chapter 118]</b><br> Synopsis: <span class="white">Yasuna wants to try astral
+          projection.</span> Agiri appearance: <span class="white">no</span> Contains colored pages: <span
+          class="white">no</span> Death in Final
+        Panel: <span class="white">yes</span> Uniform: <span class="white">Long sleeve</span> Origin:  <span class="white">COMIC FUZ</span></div>
+
+      <span class="hidden"><img
+          src="https://img.comic-fuz.com/e/1xtR2M/H6.webp?h=lu3YfMxOYND2TaOqGNxK6A&e=5000000000"></span>
+    </a>
+
+    <a href=" 119_comicfuz.pdf">
+      <div class="chapter"><b>[Chapter 119]</b></br> Synopsis: <span class="white">Yasuna & Sonya play with mud (AKA
+          Kaduho's twisted game). </span> Agiri appearance: <span class="white">no</span> Contains colored pages: <span
+          class="white">no</span>
+        Death in Final Panel: <span class="white">no</span> Uniform: <span class="white">Short sleeve</span> Origin:  <span class="white">COMIC FUZ</span></div>
+
+      <span class="hidden"><img
+          src="https://img.comic-fuz.com/e/1xh4b1/H7.webp?h=nirEqUQ3oPAaF99moNruHA&e=5000000000"></img></span>
+    </a>
+
+    <a href=" 120_comicfuz.pdf">
+      <div class="chapter"><b>[Chapter 120]</b></br> Synopsis: <span class="white">Yasuna & Sonya go to a haunted house.
+        </span> Agiri appearance: <span class="white">yes</span> Contains colored pages: <span class="white">no</span>
+        Death in Final Panel: <span class="white">no</span> Uniform: <span class="white">Short sleeve</span> Origin:  <span class="white">COMIC FUZ</span></div>
+
+      <span class="hidden"><img
+          src="https://img.comic-fuz.com/e/1xh4b1/H8.webp?h=0tqfzzr-ZgWvBbC-QUySzQ&e=5000000000"></img></span>
+    </a>
+
+    <a href=" 121_comicfuz.pdf">
+      <div class="chapter"><b>[Chapter 121]</b></br> Synopsis: <span class="white">Yasuna & Sonya mess with brooms.
+          NOTE: this chapter is shorter than usual. </span> Agiri appearance: <span class="white">no</span> Contains
+        colored pages: <span class="white">no</span>
+        Death in Final Panel: <span class="white">implied</span> Uniform: <span class="white">Blazers</span> Origin:  <span class="white">COMIC FUZ</span></div>
+
+      <span class="hidden"><img
+          src="https://img.comic-fuz.com/e/1xh4b2/H9.webp?h=cdqCvppE39R2z7lBIjA3ug&e=5000000000"></img></span>
+    </a>
+
+    <a href=" 122_comicfuz.pdf">
+      <div class="chapter"><b>[Chapter 122]</b></br> Synopsis: <span class="white">Yasuna & Sonya go to a vegetable
+          garden. </span> Agiri appearance: <span class="white">yes</span> Contains colored pages: <span
+          class="white">yes</span>
+        Death in Final Panel: <span class="white">no</span> Uniform: <span class="white">Blazers</span> Origin:  <span class="white">COMIC FUZ</span></div>
+
+      <span class="hidden"><img
+          src="https://img.comic-fuz.com/e/1xh4b0/Ha.webp?h=df7ctOm3Cv8tc0ZEDefZPg&e=5000000000"></img></span>
+    </a>
+
+    <a href=" 123_comicfuz.pdf">
+      <div class="chapter"><b>[Chapter 123]</b></br> Synopsis: <span class="white">Yasuna & Sonya open a bunch of boxes.
+        </span> Agiri appearance: <span class="white">no</span> Contains colored pages: <span class="white">no</span>
+        Death in Final Panel: <span class="white">no</span> Uniform: <span class="white">Blazers</span> Origin:  <span class="white">COMIC FUZ</span></div>
+
+      <span class="hidden"><img
+          src="https://img.comic-fuz.com/e/1xh4b2/Hb.webp?h=F4fHQ487kWI08_yMZjP3WA&e=5000000000"></img></span>
+    </a>
+
+    <a href=" 124_comicfuz.pdf">
+      <div class="chapter"><b>[Chapter 124]</b></br> Synopsis: <span class="white">Yasuna is on the hunt for UFOs
+        </span> Agiri appearance: <span class="white">no</span> Contains colored pages: <span class="white">no</span>
+        Death in Final Panel: <span class="white">no</span> Uniform: <span class="white">Blazers</span> Origin:  <span class="white">COMIC FUZ</span></div>
+
+      <span class="hidden"><img
+          src="https://img.comic-fuz.com/e/1xh4b0/Hc.webp?h=RO6be3N537KkdXSlHw9OcA&e=5000000000"></img></span>
+    </a>
+
+    <a href=" 125_comicfuz.pdf">
+      <div class="chapter"><b>[Chapter 125]</b></br> Synopsis: <span class="white">Yasuna wants to play an IRL survival
+          game. </span> Agiri appearance: <span class="white">yes</span> Contains colored pages: <span
+          class="white">no</span>
+        Death in Final Panel: <span class="white">yes</span> Uniform: <span class="white">Blazers</span> Origin:  <span class="white">COMIC FUZ</span></div>
+
+      <span class="hidden"><img
+          src="https://img.comic-fuz.com/e/1xh4b1/Hd.webp?h=OU4v6ku52EGPVbgQCR-19g&e=5000000000"></img></span>
+    </a>
+
+    <a href=" 126_comicfuz.pdf">
+      <div class="chapter"><b>[Chapter 126]</b></br> Synopsis: <span class="white">Yasuna bought hypnosis goggles.
+        </span> Agiri appearance: <span class="white">no</span> Contains colored pages: <span class="white">no</span>
+        Death in Final Panel: <span class="white">no</span> Uniform: <span class="white">Blazers</span> Origin:  <span class="white">COMIC FUZ</span> <a
+          href="https://mangadex.org/chapter/c2619264-c7db-4f4e-a732-5ba427184e9c"
+          style="text-decoration:underline;">translation attempt</a></div>
+
+      <span class="hidden"><img
+          src="https://img.comic-fuz.com/e/1xh4b0/He.webp?h=LZ5yQJFQ0krfkLfHcCSbwA&e=5000000000"></img></span>
+    </a>
+
+    <a href=" 127_comicfuz.pdf">
+      <div class="chapter"><b>[Chapter 127]</b></br> Synopsis: <span class="white">Yasuna tries to put on a freak show.
+        </span> Agiri appearance: <span class="white">no</span> Contains colored pages: <span class="white">no</span>
+        Death in Final Panel: <span class="white">off-screen</span> Uniform: <span class="white">Blazers</span> Origin:  <span class="white">COMIC FUZ</span> <a
+          href=" 127en_export1.pdf" style="text-decoration:underline;">translation
+          attempt</a></div>
+
+      <span class="hidden"><img
+          src="https://img.comic-fuz.com/e/1xh4b1/Hf.webp?h=9dlwg3HiSHtaP6ODr4HWSA&e=5000000000"></img></span>
+    </a>
+
+    <a href=" 128_comicfuz.pdf">
+      <div class="chapter"><b>[Chapter 128]</b></br> Synopsis: <span class="white">Yasuna has a tank obsession </span>
+        Agiri appearance: <span class="white">no</span> Contains colored pages: <span class="white">no</span>
+        Death in Final Panel: <span class="white">yes</span> Uniform: <span class="white">Blazers</span> Origin:  <span class="white">COMIC FUZ</span></div>
+
+      <span class="hidden"><img
+          src="https://img.comic-fuz.com/e/1xh4b1/Hg.webp?h=7K9LNBFi-v0vgLiC-wqvLg&e=5000000000"></img></span>
+    </a>
+
+    <a href=" 129_comicfuz.pdf">
+      <div class="chapter"><b>[Chapter 129]</b></br> Synopsis: <span class="white">Yasuna, Sonya & Agiri go to a
+          Biodome. </span> Agiri appearance: <span class="white">yes</span> Contains colored pages: <span
+          class="white">yes</span>
+        Death in Final Panel: <span class="white">surprisingly no</span> Uniform: <span class="white">Blazers</span> Origin:  <span class="white">COMIC FUZ</span>
+      </div>
+
+      <span class="hidden"><img
+          src="https://img.comic-fuz.com/e/1xtR5s/Hh.webp?h=m3ionYEuJtpuHTcqv4loQQ&e=5000000000"></img></span>
+    </a>
+
+    <a href=" 130_comicfuz.pdf">
+      <div class="chapter"><b>[Chapter 130]</b></br> Synopsis: <span class="white">Yasuna buys a bunch of grab-bags.
+        </span> Agiri appearance: <span class="white">no</span> Contains colored pages: <span class="white">no</span>
+        Death in Final Panel: <span class="white">no</span> Uniform: <span class="white">Long sleeve</span> Origin:  <span class="white">COMIC FUZ</span></div>
+
+      <span class="hidden"><img
+          src="https://img.comic-fuz.com/e/1xh4b2/Hi.webp?h=rOBS4sDriOU3eLjhXxzllQ&e=5000000000"></img></span>
+    </a>
+
+    <a href=" 131_comicfuz.pdf">
+      <div class="chapter"><b>[Chapter 131]</b></br> Synopsis: <span class="white">Yasuna tries her hand at snake
+          charming. This chapter contains an <u>ennemy assassin</u>. </span> Agiri appearance: <span
+          class="white">no</span> Contains colored pages: <span class="white">no</span>
+        Death in Final Panel: <span class="white">no</span> Uniform: <span class="white">Short sleeve</span> Origin:  <span class="white">COMIC FUZ</span></div>
+
+      <span class="hidden"><img
+          src="https://img.comic-fuz.com/e/1xh4b0/Hj.webp?h=drjH0JDGGUPZ0G1SeemJZQ&e=5000000000"></img></span>
+    </a>
+
+    <a href=" 132_comicfuz.pdf">
+      <div class="chapter"><b>[Chapter 132]</b></br> Synopsis: <span class="white">Yasuna is interested by the
+          performing arts. This chapter contains an <u>ennemy assassin</u>. </span> Agiri appearance: <span
+          class="white">no</span> Contains colored pages: <span class="white">no</span>
+        Death in Final Panel: <span class="white">no (not the main characters at least)</span> Uniform: <span class="white">Blazers</span> Origin:  <span
+          class="white">COMIC FUZ</span></div>
+
+      <span class="hidden"><img
+          src="https://img.comic-fuz.com/e/1xh4b2/Hk.webp?h=1L7XHVAH2TjdxTMVujNhnw&e=5000000000"></img></span>
+    </a>
+    <a href=" 133_comicfuz.pdf">
+      <div class="chapter"><b>[Chapter 133]</b></br> Synopsis: <span class="white">Yasuna & Sonya use umbrellas </span>
+        Agiri appearance: <span class="white">no</span> Contains colored pages: <span class="white">no</span>
+        Death in Final Panel: <span class="white">a little</span> Uniform: <span class="white">Blazers</span> Origin:  <span class="white">COMIC FUZ</span></div>
+
+      <span class="hidden"><img
+          src="https://img.comic-fuz.com/e/1xh4b0/6br.webp?h=EzN4ilun3JdoCMylqoVZJw&e=5000000000"></img></span>
+    </a>
+
+    <a href=" 134_comicfuz.pdf">
+      <div class="chapter"><b>[Chapter 134]</b></br> Synopsis: <span class="white">Yasuna and Sonya go to the hospital.
+        </span> Agiri appearance: <span class="white">yeah 🤤🤤</span> Contains colored pages: <span
+          class="white">yes</span>
+        Death in Final Panel: <span class="white">yes</span> Uniform: <span class="white">Blazers</span> Origin:  <span class="white">COMIC FUZ</span></div>
+
+      <span class="hidden"><img
+          src="https://img.comic-fuz.com/e/1xh4b0/6bs.webp?h=HVGgJ-7EasxpdDSm-YBokg&e=5000000000"></img></span>
+    </a>
+
+    <a href=" 135_comicfuz.pdf">
+      <div class="chapter"><b>[Chapter 135]</b></br> Synopsis: <span class="white">Yasuna & Sonya discuss performing.
+        </span> Agiri appearance: <span class="white">yes</span> Contains colored pages: <span class="white" no></span>
+        Death in Final Panel: <span class="white">no</span> Uniform: <span class="white">Blazers</span> Origin:  <span class="white">COMIC FUZ</span></div>
+
+      <span class="hidden"><img
+          src="https://img.comic-fuz.com/e/1xh4b0/6bt.webp?h=KyrmU-emk3BYl0lJCUkLMw&e=5000000000"></img></span>
+    </a>
+
+    <a href=" 136_comicfuz.pdf">
+      <div class="chapter"><b>[Chapter 136]</b></br> Synopsis: <span class="white">Yasuna & Sonya go boar hunting.
+        </span> Agiri appearance: <span class="white">yes</span> Contains colored pages: <span class="white">no</span>
+        Death in Final Panel: <span class="white">no</span> Uniform: <span class="white">Blazers</span> Origin:  <span class="white">COMIC FUZ</span></div>
+
+      <span class="hidden"><img
+          src="https://img.comic-fuz.com/e/1xh4b1/6bu.webp?h=PUWuTN9F20WJCBx8wdikxw&e=5000000000"></img></span>
+    </a>
+
+    <a href=" 137_comicfuz.pdf">
+      <div class="chapter"><b>[Chapter 137]</b></br> Synopsis: <span class="white">Yasuna brings masks.</span> Agiri
+        appearance: <span class="white">no</span> Contains colored pages: <span class="white">no</span>
+        Death in Final Panel: <span class="white">yes</span> Uniform: <span class="white">Blazers</span> Origin:  <span class="white">COMIC FUZ</span></div>
+
+      <span class="hidden"><img
+          src="https://img.comic-fuz.com/e/1xh4b2/6bv.webp?h=2fYOlg0r7Yj9IG3_LXBJPg&e=5000000000"></img></span>
+    </a>
+
+    <a href=" 138_comicfuz.pdf">
+      <div class="chapter"><b>[Chapter 138]</b></br> Synopsis: <span class="white">Yasuna, Sonya & Agiri go scuba
+          diving. </span> Agiri appearance: <span class="white">yes</span> Contains colored pages: <span
+          class="white">no</span>
+        Death in Final Panel: <span class="white">yes</span> Uniform: <span class="white">Blazers</span> Origin:  <span class="white">COMIC FUZ</span></div>
+
+      <span class="hidden"><img
+          src="https://img.comic-fuz.com/e/1xh4b2/6bw.webp?h=m_BxLHyfacmIxOso9V8PNQ&e=5000000000"></img></span>
+    </a>
+
+    <a href=" 139_comicfuz.pdf">
+      <div class="chapter"><b>[Chapter 139]</b></br> Synopsis: <span class="white">Sonya & Yasuna have an obstacle
+          course race (AKA "SQUID GAMES!!"). </span> Agiri appearance: <span class="white">yes</span> Contains colored
+        pages: <span class="white">no</span>
+        Death in Final Panel: <span class="white">no</span> Uniform: <span class="white">Tracksuits</span> Origin:  <span class="white">COMIC FUZ</span></div>
+
+      <span class="hidden"><img
+          src="https://img.comic-fuz.com/e/1xh4b1/6bx.webp?h=CCwVsDg1hL7plGggnkg3iw&e=5000000000"></img></span>
+    </a>
+
+    <a href=" 140_comicfuz.pdf">
+      <div class="chapter"><b>[Chapter 140]</b></br> Synopsis: <span class="white">Yasuna presents a bunch of watches /
+          time-keeping gadgets. </span> Agiri appearance: <span class="white">no</span> Contains colored pages: <span
+          class="white">no</span>
+        Death in Final Panel: <span class="white">no</span> Uniform: <span class="white">Long sleeve</span> Origin:  <span class="white">COMIC FUZ</span></div>
+
+      <span class="hidden"><img
+          src="https://img.comic-fuz.com/e/1xh4a_/6by.webp?h=QfPYn5Qlb-UKwrkhrS_BCw&e=5000000000"></img></span>
+    </a>
+
+    <a href=" 141_comicfuz.pdf">
+      <div class="chapter"><b>[Chapter 141]</b></br> Synopsis: <span class="whitefake">FAKE SONYA CHAPTER </span> Agiri
+        appearance: <span class="white">no</span> Contains colored pages: <span class="white">no</span>
+        Death in Final Panel: <span class="white">no</span> Uniform: <span class="white">Long sleeve</span> Origin:  <span class="white">COMIC FUZ</span></div>
+
+      <span class="hidden"><img
+          src="https://img.comic-fuz.com/e/1xh4b1/6bz.webp?h=gaxFaCvSu7TSEkc9gxlR_Q&e=5000000000"></img></span>
+    </a>
+
+    <a href=" 142_comicfuz.pdf">
+      <div class="chapter"><b>[Chapter 142]</b></br> Synopsis: <span class="white">Yasuna & Sonya play with fireworks.
+        </span> Agiri appearance: <span class="white">yes</span> Contains colored pages: <span class="white">yes</span>
+        Death in Final Panel: <span class="white">yes</span> Uniform: <span class="white">Long sleeve</span> Origin:  <span class="white">COMIC FUZ</span></div>
+
+      <span class="hidden"><img
+          src="https://img.comic-fuz.com/e/1xh4b0/6bA.webp?h=6OdOT6ufJqXkZneiT9CL0w&e=5000000000"></img></span>
+    </a>
+
+    <a href=" 143_comicfuz.pdf">
+      <div class="chapter"><b>[Chapter 143]</b></br> Synopsis: <span class="white">Yasuna, Sonya & Agiri survive a plane
+          crash. </span> Agiri appearance: <span class="white">yes</span> Contains colored pages: <span
+          class="white">no</span>
+        Death in Final Panel: <span class="white">yes</span> Uniform: <span class="white">Short sleeve</span> Origin:  <span class="white">COMIC FUZ</span></div>
+
+      <span class="hidden"><img
+          src="https://img.comic-fuz.com/e/1xh4b0/6bB.webp?h=WjYWFKDNpRSIu1-a66A2SA&e=5000000000"></img></span>
+    </a>
+
+
+  </div>
+<br><a href="index2.html">Page 2</a><br>
+  <iframe src="index2.html"></iframe>
 </body>
+
+</html>
